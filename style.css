@@ -1,0 +1,191 @@
+/* CSS for body starts */
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+/* CSS for body ends */
+
+
+/* CSS for nav starts */
+
+nav{
+    margin-top: 17px;
+    font-size: 20px;
+    background-color: rgb(214, 255, 255);
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+nav li {
+    display: inline-block;
+}
+  
+nav a {
+    display: block;
+    padding: 10px 20px;
+    color:black ;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* CSS for nav ends */
+
+
+/* CSS for header starts*/
+
+#header img{
+    height:400px;
+    width:1505px;
+    transition: box-shadow 0.7s ease;
+}
+
+img:hover {
+    box-shadow: 0 0 20px rgb(0, 255, 255);
+}
+
+/* CSS for header ends */
+
+
+/* CSS for about div starts  */
+
+h2{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(214, 255, 255);
+}
+
+#about{
+    margin: 0px;
+}
+
+#about>p{
+    padding:10px;
+    text-align: justify;
+    margin-bottom: 0px;
+}
+
+#about ul{
+    margin-top: 0px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+/* CSS for about div element ends */
+
+
+/* CSS for items div element starts */
+
+#items{
+    margin-left: 10px;
+}
+
+/* CSS for section starts inside item div */
+
+.box {
+    margin-left: 23px;
+    width: 400px;
+    height: 470px; 
+    border: 2px solid black;
+    text-align: center;
+    padding: 30px;
+    display: inline-block;
+    vertical-align: top; 
+    transition: box-shadow 0.7s ease;
+}
+
+/* CSS for each section inside items div starts */
+
+.box img {
+    max-width: 100%;
+    height: auto; 
+    transition: box-shadow 0.7s ease;
+}
+
+.box:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.box h3 {
+    margin-top: 20px; 
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.box p {
+    margin-top: 20px;
+    text-align: justify;
+}
+/* CSS for each section inside item div ends */
+
+/* CSS for item div ends */
+
+
+/* CSS for snacks div starts */
+
+.snacks {
+    margin-left: 15px;
+    width :700px;
+    height: 300px; 
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    transition: box-shadow 0.7s ease; 
+}
+
+/* CSS for each section inside snacks div starts */
+
+.snacks:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.snacks img{
+    margin-right: 10px;
+    float: left;
+    width: 220px;
+    height: 100%;
+    transition: box-shadow 0.7s ease;
+}
+
+.snacks h3 {
+    font-size: larger;
+    margin-top: 20px; 
+    text-decoration: underline;
+}
+
+.snacks p {
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: justify;
+}
+/* CSS for each section inside snacks div ends */
+
+/* CSS for snacks div ends */
+
+
+/* CSS for footer starts */
+
+footer {
+    background-color: rgb(214, 255, 255);
+    color: #000000;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/* CSS for footer ends */
